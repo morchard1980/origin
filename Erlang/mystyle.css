@@ -2,48 +2,64 @@ body{
 	background: #ffffff;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
 }
 .nav{
 	background:#455A64;
 	margin-bottom: 0;
+	height: 50px;
 	
 }
 .banner{
 	background: #607D8B;
 	margin-top: 0;
-	padding: 2px;
+	padding: 60px;
 	text-align: center;
 	color: #ffffff;
 	
 }
-thead{
-	text-align: center;
-	
-}
+
 
 h1{
 	margin: 0;
 }
 
-.forms{
+h3{
+Margin: 5px;
+	color:#727272;
+}
+
+.forms {
 	text-align: center;
-	
-}
-form{
-	border: 1px;	
+	padding: 5px;
 }
 
-select{
-	margin: 10px;	
+
+.forms label{
+	display: block;	
 }
 
+td{
+	text-align: center;
+}
+.secs{
+	width:50px;
+	margin-right: 20px;
+	height: 30px;
+}
 input{
-	width: 70px;	
+	width: 80%;
+	height: 80%;
+	border: none;
+	box-shadow: 1px 1px 1px #888888;
+	background: #B6B6B6;
+	text-align: center;
+	color: #ffffff;
 }
 
 
 button{
-	margin: 10;
+	margin: 10px;
 	background: #FFC107;
 	color: #ffffff;
   display: inline-block;
@@ -51,11 +67,24 @@ button{
   width: 120px;
   height: 32px;
   line-height: 32px;
-  border-radius: 20px;
   font-size: 0.9em;
   text-align: center;
+	box-shadow: 0.5px 0.5px 0.5px #888888;
 }
 
-tbody{
-	border: 1px;	
+tr{
+	height: 50px	
+}
+.user{
+	border-style: solid;
+	border-width: 3px;
+}
+
+.colHead{
+	border-style: solid;
+	border-width: 1px;
+	width: 10%;
+	text-align: center;
+	margin: 25px;
+	background: #CFD8DC;
 }

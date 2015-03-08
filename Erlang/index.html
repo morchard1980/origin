@@ -6,6 +6,7 @@
 <script src="erlangcal.js"></script>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 
+<core-icon icon="info"></core-icon>
 </head>
 
 
@@ -17,17 +18,13 @@
 	
 	<div class = "banner">
 		<h1>Erlang C Calculator</h1>
+		<h3>
+			Second Text
+		</h3>
 	</div>
-	
-	
-<h2>
-	testtesttest
-	</h2>
-	<div class = "forms">
-		
 
-	
-	
+	<div class = "forms">
+<label>Please Select The Start Time: </label>	
 <select id="startHour30">
 <option value="0">00:00</option>
 <option value="1">00:30</option>
@@ -77,22 +74,8 @@
 <option value="45">22:30</option>
 <option value="46">23:00</option>
 <option value="47">23:30</option>
-
-
-
-
-
-
-
-
-
-
-
 </select>
-
-
-
-<br>
+<label>Please Select The End Time: </label>
 <select id="endHour30">
 <option value="0">00:00</option>
 <option value="1">00:30</option>
@@ -143,6 +126,7 @@
 <option value="46">23:00</option>
 <option value="47">23:30</option>
 </select>
+	
 	<br>
 <button onmousedown="reset()" onmouseup="tableDraw()">Draw Table</button>
 <button onclick="reset()">Reset Table</button>
@@ -150,25 +134,22 @@
 	
 		
 		<p>What is the target time to answer?</p>
-	<input type="text" id="target"> Seconds
+	<input type="text" class="secs" id="target"> Seconds
 	<br>
-
-
-
 	<button onclick="test()">Calculate</button>
-		</div>
+		</div>	
 <br>
-	<table id="user">
-		<thead>
+	<table class="user" id="user">
+		<thead >
 		<tr>
-			<td>Interval Start</td>
-			<td>Calls Per Interval</td>
-			<td>Ave Length of Calls</td>
-			<td>Desired Probability of Calls Waiting %</td>
-			<td>Agents Required</td>
-			<td>Service Level</td>
-			<td>Occupancy Level Per Agent</td>
-			<td>Average Speed to Answer</td>
+			<td class="colHead">Interval Start</td>
+			<td class="colHead">Calls Per Interval</td>
+			<td class="colHead">Ave Length of Calls</td>
+			<td class="colHead">Desired Probability of Calls Waiting %</td>
+			<td class="colHead">Agents Required</td>
+			<td class="colHead">Service Level</td>
+			<td class="colHead">Occupancy Level Per Agent</td>
+			<td class="colHead">Average Speed to Answer</td>
 		</tr>
 
 

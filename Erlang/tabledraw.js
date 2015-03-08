@@ -36,6 +36,7 @@ var as;
 
 		for(j=0, startText ;j<8; j++){
 		var data1 = document.createElement("td");
+		
 		var cellText = document.createTextNode(startText);
 		var dataInp = 	document.createElement("input");
 		var dataInp2 = document.createElement("input");
@@ -59,10 +60,12 @@ var as;
 			if(j===0){
 			row.appendChild(data1);
 			data1.appendChild(cellText);
+			row.className = "formData";
 			}
 			else if (j===1){
 			row.appendChild(data1);
 			data1.appendChild(dataInp);
+			row.className = "formData";
 			}
 			else if(j===2){
 			row.appendChild(data1);
