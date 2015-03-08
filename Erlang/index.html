@@ -1,6 +1,6 @@
 <html>
 <head>
-
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 <script src="runData.js"></script>
 <script src="tabledraw.js"></script>
 <script src="erlangcal.js"></script>
@@ -10,14 +10,24 @@
 
 
 <body>
-<h1>Erlang C Calculator</h1>
-
+	
+	<div class = "nav">
+		<br>
+	</div>
+	
+	<div class = "banner">
+		<h1>Erlang C Calculator</h1>
+	</div>
+	
+	
 <h2>
 	testtesttest
 	</h2>
+	<div class = "forms">
+		
 
-
-
+	
+	
 <select id="startHour30">
 <option value="0">00:00</option>
 <option value="1">00:30</option>
@@ -133,26 +143,25 @@
 <option value="46">23:00</option>
 <option value="47">23:30</option>
 </select>
-<button onmousedown="reset()" onmouseup="tableDraw()">Try it</button>
-<button onclick="reset()">Reset</button>
+	<br>
+<button onmousedown="reset()" onmouseup="tableDraw()">Draw Table</button>
+<button onclick="reset()">Reset Table</button>
 	
-<br>
+	
+		
 		<p>What is the target time to answer?</p>
 	<input type="text" id="target"> Seconds
 	<br>
 
 
 
-<button onclick="test()">Calculate</button>
-
+	<button onclick="test()">Calculate</button>
+		</div>
 <br>
-	<table border = "1">
+	<table id="user">
 		<thead>
+		<tr>
 			<td>Interval Start</td>
-
-
-
-
 			<td>Calls Per Interval</td>
 			<td>Ave Length of Calls</td>
 			<td>Desired Probability of Calls Waiting %</td>
@@ -160,7 +169,7 @@
 			<td>Service Level</td>
 			<td>Occupancy Level Per Agent</td>
 			<td>Average Speed to Answer</td>
-	
+		</tr>
 
 
 		</thead>

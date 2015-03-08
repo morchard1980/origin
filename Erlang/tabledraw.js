@@ -16,8 +16,6 @@ while (myNode.firstChild) {
 
 function tableDraw(){
 var loc = document.getElementsByTagName("tbody")[0];
-//var row = document.createElement("tr");
-	
 var a=document.getElementById("startHour30").value;
 var b=document.getElementById("endHour30").value-1;
 var y;
