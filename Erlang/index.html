@@ -5,8 +5,6 @@
 <script src="tabledraw.js"></script>
 <script src="erlangcal.js"></script>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
-
-<core-icon icon="info"></core-icon>
 </head>
 
 
@@ -14,16 +12,23 @@
 	
 	<div class = "nav">
 		<br>
+	
+
+    <br>
+        
+  
+
 	</div>
 	
 	<div class = "banner">
 		<h1>Erlang C Calculator</h1>
 		<h3>
-			Second Text
+			A Simple Erlang C Calculator Created To Test My JavaScript
 		</h3>
 	</div>
 
 	<div class = "forms">
+	
 <label>Please Select The Start Time: </label>	
 <select id="startHour30">
 <option value="0">00:00</option>
@@ -75,6 +80,7 @@
 <option value="46">23:00</option>
 <option value="47">23:30</option>
 </select>
+
 <label>Please Select The End Time: </label>
 <select id="endHour30">
 <option value="0">00:00</option>
@@ -130,15 +136,14 @@
 	<br>
 <button onmousedown="reset()" onmouseup="tableDraw()">Draw Table</button>
 <button onclick="reset()">Reset Table</button>
-	
-	
-		
-		<p>What is the target time to answer?</p>
+	<section class="blk">
+		<label>What is the target time to answer?</label>
 	<input type="text" class="secs" id="target"> Seconds
-	<br>
-	<button onclick="test()">Calculate</button>
-		</div>	
-<br>
+	</section>
+	
+
+	<button class="calc" onclick="test()">Calculate</button>
+
 	<table class="user" id="user">
 		<thead >
 		<tr>
@@ -160,6 +165,9 @@
 
 	</table>
 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54fc8e771fbe0c2e" async="async"></script>
+		
 
 </body>
 

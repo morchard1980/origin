@@ -6,9 +6,14 @@ var halfHourUntilArray = ["00:29","00:59","01:29","01:59","02:29","02:59","03:29
 
 		"12:59","13:29","13:59","14:29","14:59","15:29","15:59","16:29","16:59","17:29","17:59","18:29","18:59","19:29","19:59","20:29","20:59","21:29","21:59","22:29","22:59","23:29","23:59"];
 
+
+
+
+
+
 function reset(){
 var myNode = document.getElementById("dynamic");
-while (myNode.firstChild) {
+	while (myNode.firstChild) {
     myNode.removeChild(myNode.firstChild);
 }
 
@@ -90,5 +95,6 @@ var as;
 }
 }
 }
+
 
 	

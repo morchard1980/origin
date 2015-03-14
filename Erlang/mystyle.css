@@ -4,6 +4,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 }
+
 .nav{
 	background:#455A64;
 	margin-bottom: 0;
@@ -29,14 +30,48 @@ Margin: 5px;
 	color:#727272;
 }
 
+select{
+	border-style: solid;
+	border-color: #CFD8DC;
+   	background: transparent;
+		font-weight: bold;
+		margin: 1em;	
+		height: 40px;
+		width: 80px;
+		padding: 0.5em;
+}	
+
+
+select:hover
+{
+	box-shadow: 4px 4px 5px #808080;;
+ }
+
+.calc{
+	background: #FFC107;
+	padding: 0.5em;
+	 width: 260px;
+  height: 60px;
+  line-height: 32px;
+  border-radius: 0.5em;
+}
+.blk{
+	display: block;
+		
+}
+
 .forms {
+	position:relative;
 	text-align: center;
 	padding: 5px;
 }
 
 
+
+
 .forms label{
 	display: block;	
+	margin: 0.5em;
 }
 
 td{
@@ -52,32 +87,42 @@ input{
 	height: 80%;
 	border: none;
 	box-shadow: 1px 1px 1px #888888;
-	background: #B6B6B6;
+	background: #CFD8DC;
 	text-align: center;
 	color: #ffffff;
 }
 
 
 button{
-	margin: 10px;
-	background: #FFC107;
-	color: #ffffff;
+
+	border-style: solid;
+	border-color: #CFD8DC;
+	margin: 1em;;
+	background: #FFFFFF;
+	color: #000000;
   display: inline-block;
   position: relative;
   width: 120px;
-  height: 32px;
+  height: 50px;
   line-height: 32px;
   font-size: 0.9em;
   text-align: center;
-	box-shadow: 0.5px 0.5px 0.5px #888888;
+	font-weight: bold;
 }
 
+button:hover
+{
+	box-shadow: 4px 4px 5px #808080;;
+ }
+
 tr{
-	height: 50px	
+	height: 50px;
+	border-width: 3px;
 }
 .user{
 	border-style: solid;
 	border-width: 3px;
+	border-color: #b6b6b6;
 }
 
 .colHead{
@@ -86,5 +131,17 @@ tr{
 	width: 10%;
 	text-align: center;
 	margin: 25px;
+	
 	background: #CFD8DC;
 }
+
+td{
+	border-style: solid;	
+	border-width: 1px;
+	border-color: #b6b6b6;
+}
+input:hover
+{
+  z-index:999;
+	box-shadow: 4px 4px 5px #808080;
+ }
