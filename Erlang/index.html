@@ -31,6 +31,7 @@
 	
 <label>Please Select The Start Time: </label>	
 <select id="startHour30">
+	<option value="Default"> Select</option>
 <option value="0">00:00</option>
 <option value="1">00:30</option>
 <option value="2">01:00</option>
@@ -83,6 +84,7 @@
 
 <label>Please Select The End Time: </label>
 <select id="endHour30">
+	<option value="Default"> Select</option>
 <option value="0">00:00</option>
 <option value="1">00:30</option>
 <option value="2">01:00</option>
@@ -134,9 +136,15 @@
 </select>
 	
 	<br>
-<button onmousedown="reset()" onmouseup="tableDraw()">Draw Table</button>
+	
+			
+		<button onmousedown="reset()" onmouseup="tableDraw()">Draw Table</button>
 <button onclick="reset()">Reset Table</button>
-	<section class="blk">
+
+	
+		
+		
+		<section class="blk">
 		<label>What is the target time to answer?</label>
 	<input type="text" class="secs" id="target"> Seconds
 	</section>
@@ -169,8 +177,7 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54fc8e771fbe0c2e" async="async"></script>
 		
 
-</body>
-
+		</body>
 
 
 </html>

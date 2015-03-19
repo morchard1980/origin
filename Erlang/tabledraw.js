@@ -16,7 +16,11 @@ var myNode = document.getElementById("dynamic");
 	while (myNode.firstChild) {
     myNode.removeChild(myNode.firstChild);
 }
+}
 
+
+function resetSelect(){
+ document.getElementById('startHour30').value = 0;	
 }
 
 function tableDraw(){
